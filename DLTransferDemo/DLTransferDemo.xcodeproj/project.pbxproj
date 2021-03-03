@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		826512C925EF960500B96FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8265129225EF960400B96FE0 /* Assets.xcassets */; };
+		826512CA25EF960500B96FE0 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265129325EF960400B96FE0 /* DLViewController.m */; };
+		826512CB25EF960500B96FE0 /* DLFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265129525EF960400B96FE0 /* DLFileModel.m */; };
+		826512CC25EF960500B96FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8265129725EF960400B96FE0 /* LaunchScreen.storyboard */; };
+		826512CD25EF960500B96FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8265129925EF960400B96FE0 /* Main.storyboard */; };
+		826512CE25EF960500B96FE0 /* IPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265129B25EF960400B96FE0 /* IPHelper.m */; };
+		826512CF25EF960500B96FE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265129C25EF960400B96FE0 /* main.m */; };
+		826512D025EF960500B96FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8265129D25EF960400B96FE0 /* AppDelegate.m */; };
+		826512D125EF960500B96FE0 /* DLFileItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 826512A025EF960400B96FE0 /* DLFileItemCell.xib */; };
+		826512D225EF960500B96FE0 /* DLFileItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 826512A125EF960400B96FE0 /* DLFileItemCell.m */; };
+		826512E225EF960500B96FE0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 826512C725EF960500B96FE0 /* Info.plist */; };
+		E2028D7A29B4E1EEE969B347 /* Pods_DLTransferDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0692B4F20BC3EB638BB46D0 /* Pods_DLTransferDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14EA2E301F7F6934892328CA /* Pods-wifiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifiDemo.release.xcconfig"; path = "Target Support Files/Pods-wifiDemo/Pods-wifiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6DD5E937DFC26E9499547248 /* Pods-DLTransferDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLTransferDemo.debug.xcconfig"; path = "Target Support Files/Pods-DLTransferDemo/Pods-DLTransferDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8265129025EF960400B96FE0 /* IPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPHelper.h; sourceTree = "<group>"; };
+		8265129125EF960400B96FE0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8265129225EF960400B96FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8265129325EF960400B96FE0 /* DLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
+		8265129525EF960400B96FE0 /* DLFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFileModel.m; sourceTree = "<group>"; };
+		8265129625EF960400B96FE0 /* DLFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFileModel.h; sourceTree = "<group>"; };
+		8265129825EF960400B96FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8265129A25EF960400B96FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8265129B25EF960400B96FE0 /* IPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPHelper.m; sourceTree = "<group>"; };
+		8265129C25EF960400B96FE0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8265129D25EF960400B96FE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8265129F25EF960400B96FE0 /* DLFileItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLFileItemCell.h; sourceTree = "<group>"; };
+		826512A025EF960400B96FE0 /* DLFileItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLFileItemCell.xib; sourceTree = "<group>"; };
+		826512A125EF960400B96FE0 /* DLFileItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLFileItemCell.m; sourceTree = "<group>"; };
+		826512C725EF960500B96FE0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		826512C825EF960500B96FE0 /* DLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
+		82676E7325ECE46C0090143A /* DLTransferDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLTransferDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A26363EDACE515A8CEB9D7 /* Pods-DLTransferDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLTransferDemo.release.xcconfig"; path = "Target Support Files/Pods-DLTransferDemo/Pods-DLTransferDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C0692B4F20BC3EB638BB46D0 /* Pods_DLTransferDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLTransferDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D406993EBC7665C43E196999 /* Pods-wifiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wifiDemo.debug.xcconfig"; path = "Target Support Files/Pods-wifiDemo/Pods-wifiDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82676E7025ECE46C0090143A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2028D7A29B4E1EEE969B347 /* Pods_DLTransferDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01885A4982DC75CD3EF4278D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D406993EBC7665C43E196999 /* Pods-wifiDemo.debug.xcconfig */,
+				14EA2E301F7F6934892328CA /* Pods-wifiDemo.release.xcconfig */,
+				6DD5E937DFC26E9499547248 /* Pods-DLTransferDemo.debug.xcconfig */,
+				90A26363EDACE515A8CEB9D7 /* Pods-DLTransferDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A34CDF8EFD6E054EF2F48C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0692B4F20BC3EB638BB46D0 /* Pods_DLTransferDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8265128F25EF960400B96FE0 /* DLTransferDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8265129425EF960400B96FE0 /* Models */,
+				8265129E25EF960400B96FE0 /* Views */,
+				8265129125EF960400B96FE0 /* AppDelegate.h */,
+				8265129D25EF960400B96FE0 /* AppDelegate.m */,
+				8265129025EF960400B96FE0 /* IPHelper.h */,
+				8265129B25EF960400B96FE0 /* IPHelper.m */,
+				826512C825EF960500B96FE0 /* DLViewController.h */,
+				8265129325EF960400B96FE0 /* DLViewController.m */,
+				8265129225EF960400B96FE0 /* Assets.xcassets */,
+				826512C725EF960500B96FE0 /* Info.plist */,
+				8265129725EF960400B96FE0 /* LaunchScreen.storyboard */,
+				8265129C25EF960400B96FE0 /* main.m */,
+				8265129925EF960400B96FE0 /* Main.storyboard */,
+			);
+			path = DLTransferDemo;
+			sourceTree = "<group>";
+		};
+		8265129425EF960400B96FE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8265129525EF960400B96FE0 /* DLFileModel.m */,
+				8265129625EF960400B96FE0 /* DLFileModel.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8265129E25EF960400B96FE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8265129F25EF960400B96FE0 /* DLFileItemCell.h */,
+				826512A025EF960400B96FE0 /* DLFileItemCell.xib */,
+				826512A125EF960400B96FE0 /* DLFileItemCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		82676E6A25ECE46C0090143A = {
+			isa = PBXGroup;
+			children = (
+				8265128F25EF960400B96FE0 /* DLTransferDemo */,
+				82676E7425ECE46C0090143A /* Products */,
+				01885A4982DC75CD3EF4278D /* Pods */,
+				2A34CDF8EFD6E054EF2F48C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82676E7425ECE46C0090143A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82676E7325ECE46C0090143A /* DLTransferDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82676E7225ECE46C0090143A /* DLTransferDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82676E8C25ECE46F0090143A /* Build configuration list for PBXNativeTarget "DLTransferDemo" */;
+			buildPhases = (
+				D5605BC88EAB3A333B9A4DB0 /* [CP] Check Pods Manifest.lock */,
+				82676E6F25ECE46C0090143A /* Sources */,
+				82676E7025ECE46C0090143A /* Frameworks */,
+				82676E7125ECE46C0090143A /* Resources */,
+				62F446A9C9872E446D96C0EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLTransferDemo;
+			productName = wifiDemo;
+			productReference = 82676E7325ECE46C0090143A /* DLTransferDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82676E6B25ECE46C0090143A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					82676E7225ECE46C0090143A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 82676E6E25ECE46C0090143A /* Build configuration list for PBXProject "DLTransferDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82676E6A25ECE46C0090143A;
+			productRefGroup = 82676E7425ECE46C0090143A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82676E7225ECE46C0090143A /* DLTransferDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82676E7125ECE46C0090143A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826512CD25EF960500B96FE0 /* Main.storyboard in Resources */,
+				826512C925EF960500B96FE0 /* Assets.xcassets in Resources */,
+				826512E225EF960500B96FE0 /* Info.plist in Resources */,
+				826512D125EF960500B96FE0 /* DLFileItemCell.xib in Resources */,
+				826512CC25EF960500B96FE0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62F446A9C9872E446D96C0EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DLTransferDemo/Pods-DLTransferDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DLTransferDemo/Pods-DLTransferDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DLTransferDemo/Pods-DLTransferDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5605BC88EAB3A333B9A4DB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DLTransferDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82676E6F25ECE46C0090143A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826512D225EF960500B96FE0 /* DLFileItemCell.m in Sources */,
+				826512CA25EF960500B96FE0 /* DLViewController.m in Sources */,
+				826512CB25EF960500B96FE0 /* DLFileModel.m in Sources */,
+				826512CF25EF960500B96FE0 /* main.m in Sources */,
+				826512CE25EF960500B96FE0 /* IPHelper.m in Sources */,
+				826512D025EF960500B96FE0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8265129725EF960400B96FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8265129825EF960400B96FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8265129925EF960400B96FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8265129A25EF960400B96FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82676E8A25ECE46F0090143A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82676E8B25ECE46F0090143A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82676E8D25ECE46F0090143A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD5E937DFC26E9499547248 /* Pods-DLTransferDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3VAN9A5P4;
+				INFOPLIST_FILE = "$(SRCROOT)/DLTransferDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muyang.wifiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82676E8E25ECE46F0090143A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A26363EDACE515A8CEB9D7 /* Pods-DLTransferDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3VAN9A5P4;
+				INFOPLIST_FILE = "$(SRCROOT)/DLTransferDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muyang.wifiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82676E6E25ECE46C0090143A /* Build configuration list for PBXProject "DLTransferDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82676E8A25ECE46F0090143A /* Debug */,
+				82676E8B25ECE46F0090143A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82676E8C25ECE46F0090143A /* Build configuration list for PBXNativeTarget "DLTransferDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82676E8D25ECE46F0090143A /* Debug */,
+				82676E8E25ECE46F0090143A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82676E6B25ECE46C0090143A /* Project object */;
+}

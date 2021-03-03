@@ -1,0 +1,22 @@
+PODS:
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - GCDWebServer/WebUploader (~> 3.0)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - GCDWebServer
+    - Masonry
+
+SPEC CHECKSUMS:
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 0b14b8c2cc3c6ff3f65f26d1358598db2a7f67ad
+
+COCOAPODS: 1.9.3
